@@ -1,0 +1,70 @@
+* {
+			box-sizing: border-box;
+		}
+		body, html {
+			padding: 0;
+			margin: 0;
+		}
+		.wrap {
+			max-width: 1000px;
+			margin: auto;
+		}
+
+		@keyframes title {
+			10% {background-color: black; color: white;}
+			25% {background-color: yellow; color: blue;}
+			50% {background-color: green; color: brown;}
+			75% {background-color: white; color: red;}
+			100% {background-color: pink; color: grey;}
+		}
+		h1 {
+			text-transform: uppercase;
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			font-size: 50px;
+			line-height: 80px;
+			animation: title 10s ease infinite;
+		}
+		#menu {
+			margin: 50px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+		}
+		#menu a {
+			text-decoration: none;
+			margin: 20px;
+		}
+		h3 a {
+			text-decoration: none;
+		}
+		h3 a:visited {
+			color: blue;
+		}
+		h3 a:hover {
+			color: green;
+		}
+		h3 a:active {
+			color: yellow;
+		}
+		.name {
+			border: 1px solid black;
+			float: left;
+			width: 480px;
+			padding: 10px;
+			margin: 10px;
+		}
+		.pic {
+			overflow: hidden;
+			margin-top: 50px;
+			border: 1px solid black;
+		}
+		.pic .hang img {
+			width: 33%;
+			height: 250px;
+		}
+		.pic .hang {
+			margin: 10px;
+		}
+		.pic .hang1 {} 
