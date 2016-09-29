@@ -22,18 +22,28 @@ body, html {
 	border-radius: 50%;
 	top: 65px;
 }
-#menu {
-			margin: 30px;
-			text-align: center;
-			font-size: 30px;
-			font-weight: bold;
-		}
-#menu a {
-	text-decoration: none;
-	margin: 20px;
-}
 .set img {
 	float: left;
 	width: 50%;
 	padding: 15px;
+}
+ul {
+	list-style-type: none;
+}
+#menu {
+	display: block;
+	background-color: yellow;
+	font-weight: bold;
+}
+#menu ul li a {
+	text-decoration: none;
+}
+#menu ul li {
+	font-size: 30px;
+}
+#menu ul li ul {
+	display: none;
+}
+#menu ul li:hover ul {
+	display: block;
 }
